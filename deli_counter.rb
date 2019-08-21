@@ -12,13 +12,7 @@ def line(array)
     puts "The line is currently empty."
   end 
 end  
-def line_simple(array)
-  this_line = "This simple line is currently:"
-  array.each.with_index(0) do |num, index|
-    this_line << "#{index}. #{num},"
-  end 
-  puts this_line
-end  
+
 
 def take_a_number(line, new_person)
   line.push(new_person)
